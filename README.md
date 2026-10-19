@@ -16,11 +16,11 @@ The missing values are structured, not random. Once a student's record stops it 
 
 Three notebooks, meant to be read in order.
 
-**`01_data_preparation.ipynb`** — Builds four cohorts, one at each checkpoint after a test. Each cohort keeps only the students still present at that point, so no cohort has a missing value. This turns one prediction problem into four, each asking whether a student present at a checkpoint survives to the next.
+**`01_data_preparation.ipynb`**: Builds four cohorts, one at each checkpoint after a test. Each cohort keeps only the students still present at that point, so no cohort has a missing value. This turns one prediction problem into four, each asking whether a student present at a checkpoint survives to the next.
 
-**`02_classification.ipynb`** — Fits five classifiers to each cohort (logistic regression, decision tree, random forest, gradient boosting, SVM), handles class imbalance, tunes by cross-validated F1 on the dropout class, and compares each cohort with and without engagement features.
+**`02_classification.ipynb`**: Fits five classifiers to each cohort (logistic regression, decision tree, random forest, gradient boosting, SVM), handles class imbalance, tunes by cross-validated F1 on the dropout class, and compares each cohort with and without engagement features.
 
-**`03_clustering.ipynb`** — Places every student on two axes, an engagement score and their first test grade, then groups them two ways, a median split into four quadrants and a k-means solution. The groups are fixed at the start and tracked across the cohorts, so any shift shows who left rather than who changed.
+**`03_clustering.ipynb`**: Places every student on two axes, an engagement score and their first test grade, then groups them two ways, a median split into four quadrants and a k-means solution. The groups are fixed at the start and tracked across the cohorts, so any shift shows who left rather than who changed.
 
 ## Key findings
 
