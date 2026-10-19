@@ -2,7 +2,7 @@
 
 MSc research project predicting student dropout in an online course, using survival analysis to find when students leave, classification to find who is at risk, and clustering to group students by behaviour. Bayes Business School, City St George's, University of London, 2026.
 
-## Question
+## Research Problem
 
 Most students who enrol on an online course do not finish it. The project works from a single idea: one dropout label can hide two different kinds of exit. An academic dropout disengages during the course and leaves early. An administrative dropout finishes all the coursework and tests but never takes the final step of certifying. The two look opposite in the data and need different responses, so the project asks three questions: when students leave, which behaviours signal it, and whether students group into types that drop out differently.
 
