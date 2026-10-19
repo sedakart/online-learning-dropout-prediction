@@ -4,7 +4,7 @@ MSc research project predicting student dropout in an online course, using survi
 
 ## Question
 
-Most students who enrol on an online course do not finish it. The project works from a single idea: one dropout label can hide two different kinds of exit. An academic dropout disengages during the course and leaves early. An administrative dropout finishes all the coursework and tests but never takes the final step of certifying. The two look opposite in the data and need different responses, so the project asks three questions — when students leave, which behaviours signal it, and whether students group into types that drop out differently.
+Most students who enrol on an online course do not finish it. The project works from a single idea: one dropout label can hide two different kinds of exit. An academic dropout disengages during the course and leaves early. An administrative dropout finishes all the coursework and tests but never takes the final step of certifying. The two look opposite in the data and need different responses, so the project asks three questions: when students leave, which behaviours signal it, and whether students group into types that drop out differently.
 
 ## Data
 
